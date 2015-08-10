@@ -11,16 +11,19 @@
   width: 48px; }
 
 .bonus {
-  background-color: #96DC7E; }
+  background-color: #DBFBD0; }
 
 .malus {
-  background-color: #DC7E7E; }
+  background-color: #FBD0D0; }
 
 .space {
   margin-bottom: 40px; }
 
-h2 {
+h2, h3 {
   font-family: 'project_paintball_betadisplay', sans-serif; }
+
+h3 {
+  color: #558FDA; }
 
 .slots {
   color: #FFD303;
