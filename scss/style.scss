@@ -1,7 +1,41 @@
+@font-face {
+    font-family: 'project_paintball_betadisplay';
+    src: url('paintball_beta_2-webfont.eot');
+    src: url('paintball_beta_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('paintball_beta_2-webfont.woff2') format('woff2'),
+         url('paintball_beta_2-webfont.woff') format('woff'),
+         url('paintball_beta_2-webfont.ttf') format('truetype'),
+         url('paintball_beta_2-webfont.svg#project_paintball_betadisplay') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .center {
   text-align: center;
 }
 
 .mini {
   width: 48px;
+}
+
+.bonus {
+  background-color: #96DC7E;
+}
+
+.malus {
+  background-color: #DC7E7E;
+}
+
+.space {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: 'project_paintball_betadisplay', sans-serif;
+}
+
+.slots {
+  color: #FFD303;
+  text-align: center;
 }
