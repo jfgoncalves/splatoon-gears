@@ -5,7 +5,7 @@
 .ability-ink-saver-sub, .ability-last-ditch-effort, .ability-ninja-squid, .ability-opening-gambit, .ability-quick-respawn,
 .ability-quick-super-jump, .ability-recon, .ability-run-speed-up, .ability-special-charge-up, .ability-special-duration-up,
 .ability-special-saver, .ability-stealth-jump, .ability-swim-speed-up, .ability-tenacity
-{ max-width: 100%; background-size: 100%; background-image: url('/img/sprites/ability_sprite.png'); }
+{ max-width: 100%; background-size: 100%; background-image: url('../img/sprites/ability_sprite.png'); }
 
 .ability-bomb-range-up { background-position: 0 0%; background-size: 100%; }
 .ability-bomb-sniffer { background-position: 0 4.347826%; background-size: 100%; }
