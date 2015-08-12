@@ -4,7 +4,7 @@
 .brand-kog, .brand-krak-on, .brand-rockenberg, .brand-skalop, .brand-splash-mob,
 .brand-squidforce, .brand-takoroka, .brand-tentatek, .brand-the-squid-girl, .brand-zekko,
 .brand-zink, .brand-amiibo
-{ max-width: 100%; background-size: 100%; background-image: url('/img/sprites/brand_sprite.png'); }
+{ max-width: 100%; background-size: 100%; background-image: url('../img/sprites/brand_sprite.png'); }
 
 .brand-cuttlegear { background-position: 0 0%; background-size: 100%; }
 .brand-famitsu { background-position: 0 6.25%; background-size: 100%; }
