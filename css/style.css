@@ -28,6 +28,12 @@ h2, h3, h4, h5 {
 h3 {
   color: #3172C5; }
 
+h4 {
+  padding-left: 20px; }
+
+h5 {
+  padding-left: 30px; }
+
 .slots {
   color: #FFD303;
   text-align: center; }
