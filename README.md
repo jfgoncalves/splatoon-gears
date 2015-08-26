@@ -1,4 +1,4 @@
-# Splatoon-Stages
-Check and display the current set of stages in Splatoon
+# Splatoon-Gears
+A compendium of handful resources on Splatoon gears system.
 
 http://jfgoncalves.github.io/splatoon-gears/
