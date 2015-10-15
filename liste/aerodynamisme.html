@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/responsive-tables.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <script src="../js/vendor/modernizr.js"></script>
+    <script src="../js/chart/Chart.js"></script>
   </head>
   <body>
     <nav class="top-bar" data-topbar role="navigation">
@@ -320,5 +321,71 @@
       $(document).foundation();
     </script>
     <script src="../js/responsive-tables.js"></script>
+
+    <script>
+    var data = {
+    labels: ["0 subs", "1 sub", "2 subs", "3 subs", "4 subs", "5 subs", "6 subs", "7 subs", "8 subs", "9 subs"],
+    datasets: [
+        {
+            label: "0 main",
+            fill: false,
+            backgroundColor: "rgba(245,113,98,0.2)",
+            borderColor: "rgba(245,113,98,1)",
+            pointBackgroundColor: "#fff",
+            pointHoverBackgroundColor: "rgba(245,113,98,1)",
+            pointBorderColor: "rgba(245,113,98,1)",
+            pointHoverBorderColor: "rgba(245,113,98,1)",
+            pointBorderWidth: 1,
+			      pointHoverRadius: 4,
+            data: [0.00, 4, 7, 10.9, 14.1, 17.2, 19.8, 22.7, 25, 27.4]
+        },
+        {
+            label: "1 main",
+            fill: false,
+            backgroundColor: "rgba(142,201,98,0.2)",
+            borderColor: "rgba(142,201,98,1)",
+            pointBackgroundColor: "#fff",
+            pointHoverBackgroundColor: "rgba(142,201,98,1)",
+            pointBorderColor: "rgba(142,201,98,1)",
+            pointHoverBorderColor: "rgba(142,201,98,1)",
+            pointBorderWidth: 1,
+            pointHoverRadius: 4,
+            data: [12, 15.1, 18, 20.9, 23.5, 25.9, 28, 30, 31.9, 33.4]
+        },
+        {
+            label: "2 main",
+            fill: false,
+            backgroundColor: "rgba(113,194,221,0.2)",
+            borderColor: "rgba(113,194,221,1)",
+            pointBackgroundColor: "#fff",
+            pointHoverBackgroundColor: "rgba(113,194,221,1)",
+            pointBorderColor: "rgba(113,194,221,1)",
+            pointHoverBorderColor: "rgba(113,194,221,1)",
+            pointBorderWidth: 1,
+            pointHoverRadius: 4,
+            data: [21.7, 24.3, 26.6, 28.7, 30.6, 32.4, 34, 35.2, 36.3, 37.3]
+        },
+        {
+            label: "3 main",
+            fill: false,
+            backgroundColor: "rgba(243,194,61,0.2)",
+            borderColor: "rgba(243,194,61,1)",
+            pointBackgroundColor: "#fff",
+            pointHoverBackgroundColor: "rgba(243,194,61,1)",
+            pointBorderColor: "rgba(243,194,61,1)",
+            pointHoverBorderColor: "rgba(243,194,61,1)",
+            pointBorderWidth: 1,
+            pointHoverRadius: 4,
+            data: [29.2, 31.3, 33, 34.5, 35.5, 36.8, 37.6, 38.4, 38.6, 39.2]
+        }
+      ]
+    };
+
+    var ctx = document.getElementById("quickSuperJumpChart").getContext("2d");
+    var superJumpChart = new Chart(ctx , {
+    type: "line",
+    data: data,
+    });
+    </script>
   </body>
 </html>
