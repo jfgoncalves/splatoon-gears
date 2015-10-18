@@ -13,6 +13,9 @@
 .main {
   max-width: 64px; }
 
+.thumb {
+  max-width: 24px; }
+
 .bonus {
   background-color: #DBFBD0; }
 
